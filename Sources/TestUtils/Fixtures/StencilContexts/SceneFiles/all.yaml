@@ -1,0 +1,75 @@
+sceneFiles:
+- name: "Cube"
+  rootNode:
+    animationKeys: []
+    children:
+    - animationKeys: []
+      children: []
+      hasGeometry: false
+      hasLight: false
+      isHidden: false
+      name: "camera"
+    - animationKeys: []
+      children: []
+      hasGeometry: true
+      hasLight: false
+      isHidden: false
+      name: "box"
+    hasGeometry: false
+    hasLight: false
+    isHidden: false
+- name: "Hierarchy"
+  rootNode:
+    animationKeys: []
+    children:
+    - animationKeys: []
+      children:
+      - animationKeys: []
+        children:
+        - animationKeys: []
+          children: []
+          hasGeometry: true
+          hasLight: false
+          isHidden: false
+          name: "left"
+        - animationKeys: []
+          children: []
+          hasGeometry: true
+          hasLight: false
+          isHidden: false
+          name: "right"
+        hasGeometry: false
+        hasLight: false
+        isHidden: false
+        name: "Back"
+      - animationKeys: []
+        children:
+        - animationKeys: []
+          children: []
+          hasGeometry: true
+          hasLight: false
+          isHidden: false
+          name: "left"
+        - animationKeys: []
+          children: []
+          hasGeometry: true
+          hasLight: false
+          isHidden: false
+          name: "right"
+        hasGeometry: false
+        hasLight: false
+        isHidden: false
+        name: "Front"
+      hasGeometry: false
+      hasLight: false
+      isHidden: false
+      name: "Boxes"
+    - animationKeys: []
+      children: []
+      hasGeometry: false
+      hasLight: false
+      isHidden: false
+      name: "camera"
+    hasGeometry: false
+    hasLight: false
+    isHidden: false

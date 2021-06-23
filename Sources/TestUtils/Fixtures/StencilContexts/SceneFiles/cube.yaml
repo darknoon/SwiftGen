@@ -1,0 +1,20 @@
+sceneFiles:
+- name: "Cube"
+  rootNode:
+    animationKeys: []
+    children:
+    - animationKeys: []
+      children: []
+      hasGeometry: false
+      hasLight: false
+      isHidden: false
+      name: "camera"
+    - animationKeys: []
+      children: []
+      hasGeometry: true
+      hasLight: false
+      isHidden: false
+      name: "box"
+    hasGeometry: false
+    hasLight: false
+    isHidden: false

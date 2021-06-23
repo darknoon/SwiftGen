@@ -33,7 +33,7 @@ extension Files.Parser {
   private func structure(
     entries: [Files.File],
     atKeyPath keyPath: [String] = [],
-    usingMapper mapper: @escaping Mapper
+    usingMapper mapper: Mapper
   ) -> [String: Any] {
     var structuredFiles: [String: Any] = [:]
     if let name = keyPath.last {

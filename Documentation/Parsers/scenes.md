@@ -1,14 +1,14 @@
-# Plist parser
+#  SceneKit file parser
 
 ## Input
 
-The Plist parser accepts multiple files or directories (which it'll recursively search). Each file's content will be loaded into the context, but the parser will also generate metadata about the structure of the file.
+The SceneKit parser accepts multiple files or directories (which it'll recursively search).
 
-Note: The JSON, YAML and Plist parsers provide the same context structure, so you can easily switch input formats while keeping the same template.
+Each file's content will be loaded into the context, but the parser will also generate metadata about the structure of the file.
 
 ### Filter
 
-The default filter for this command is: `[^/]\.(?i:plist)$`. That means it'll accept any file with the extension `plist`.
+The default filter for this command is: `[^/]\.(?i:scn)$`. That means it'll accept any file with the extension `scn`.
 
 You can provide a custom filter using the `filter` option, it accepts any valid regular expression. See the [Config file documentation](../ConfigFile.md) for more information.
 
